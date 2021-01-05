@@ -9,7 +9,9 @@ phases:
       - ls -l
       - chmod +x gradlew
       - ./gradlew build
+      - mv build/libs/minimal-api-*.jar minimal-api.jar
 artifacts:
   files:
-    - '*.jar'
-  base-directory: 'build/libs'
+    - minimal-api.jar
+    - appspec.yml
+    - scripts/*
