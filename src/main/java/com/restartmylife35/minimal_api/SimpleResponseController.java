@@ -8,7 +8,7 @@ public class SimpleResponseController {
 	
 	@RequestMapping("/")
 	public String index() {
-		return "2021/01/06 21:10";
+		return "2021/01/06 21:27";
 	}
 
 }
