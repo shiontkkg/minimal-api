@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "validate_service.sh is executed!"
+sudo systemctl status minimal-api.service

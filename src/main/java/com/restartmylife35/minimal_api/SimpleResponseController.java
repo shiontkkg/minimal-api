@@ -8,7 +8,7 @@ public class SimpleResponseController {
 	
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot!";
+		return "2021/01/06 21:10";
 	}
 
 }

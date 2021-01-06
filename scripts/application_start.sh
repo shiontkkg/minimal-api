@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "application_start.sh is executed!"
+sudo systemctl start minimal-api.service

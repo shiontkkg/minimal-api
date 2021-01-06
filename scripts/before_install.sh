@@ -1,3 +1,4 @@
 #!/bin/sh
 
-echo "before_install.sh is executed!"
+echo "after install"
+ls -l /home/ec2-user/
