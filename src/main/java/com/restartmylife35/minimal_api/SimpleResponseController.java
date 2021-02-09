@@ -9,7 +9,7 @@ public class SimpleResponseController {
 	
 	@RequestMapping(path = "/", method = RequestMethod.GET)
 	public String index() {
-		return "修正前のコードです。";
+		return "Now Preparing...";
 	}
 
 }
