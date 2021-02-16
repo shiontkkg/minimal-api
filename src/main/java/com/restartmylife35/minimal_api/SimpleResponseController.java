@@ -9,7 +9,7 @@ public class SimpleResponseController {
 	
 	@RequestMapping(path = "/", method = RequestMethod.GET)
 	public String index() {
-		return "Now Preparing...";
+		return "Hello AWS CodePipeline!";
 	}
 
 }
