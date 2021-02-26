@@ -9,7 +9,7 @@ public class SimpleResponseController {
 	
 	@RequestMapping(path = "/", method = RequestMethod.GET)
 	public String index() {
-		return "Version 1.0";
+		return "Version 1.1";
 	}
 
 }
