@@ -1,0 +1,9 @@
+aws:
+  secretsmanager:
+#    prefix: /sercet
+#    defaultContext: minimal-api
+#    profileSeparator: _
+#    failFast: true
+#    name: minimal-api
+    enabled: true
+#    region: ap-northeast-1

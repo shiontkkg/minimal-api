@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: minimal-api
+  profiles:
+    active: dev
+
+#jasypt:
+#  encryptor:
+#    bean: encryptorBean
+
+application:
+  param: localvalue
+  auth:
+    password: planepassword
+#  auth:
+#    username: ENC(BSR/wq9Vem1D5a5T6ptXXXVSidHtL1Pd)
+#    password: ENC(8odr2mftZshDkpLRbvOjoR1JHvQVLH0h)
